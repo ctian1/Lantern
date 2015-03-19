@@ -1,0 +1,35 @@
+.navbar {
+	background-color: #f00;
+	display: block;
+	
+	ul {
+		margin: auto auto;
+		background-color: #0f0;
+		display: block;
+		margin: 0;
+		padding: 0;
+		
+		li {
+			list-style-type: none;
+			display: table-cell;
+			height: 50px;
+			line-height: 50px;
+			background-color: #ff0;
+			
+			a, .navitem {
+				text-decoration: none;
+				display: inline-block;
+				height: 50px;
+				padding: 0 20px;
+				line-height: 50px;
+				vertical-align: middle;
+				background-color: #00f;
+				color: #000;
+				
+				&:hover {
+					background-color: #0ff;
+				}
+			}
+		}
+	}
+}
