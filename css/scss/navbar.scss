@@ -1,10 +1,16 @@
+$navbar-bg: #222;
+$navbar-fg: #ddd;
+$navbar-bg-hover: #222;
+$navbar-fg-hover: #fff;
+$navbar-border: #aaa;
+
 .navbar {
-	background-color: #f00;
+	background-color: $navbar-bg;
 	display: block;
 	
 	ul {
 		margin: auto auto;
-		background-color: #0f0;
+		background-color: $navbar-bg;
 		display: block;
 		margin: 0;
 		padding: 0;
@@ -14,10 +20,14 @@
 			display: table-cell;
 			height: 50px;
 			line-height: 50px;
-			background-color: #ff0;
+			background-color: $navbar-bg;
+			
+			&:hover {
+				background-color: $navbar-bg-hover;
+			}
 			
 			+ li {
-				border-left: 1px solid #ccc;
+				border-left: 1px solid $navbar-border;
 			}
 			
 			a, .navitem {
@@ -27,11 +37,11 @@
 				padding: 0 20px;
 				line-height: 50px;
 				vertical-align: middle;
-				background-color: #00f;
-				color: #000;
+				color: $navbar-fg;
 				
 				&:hover {
-					background-color: #0ff;
+					background-color: $navbar-bg-hover;
+					color: $navbar-fg-hover;
 				}
 			}
 		}
