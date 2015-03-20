@@ -3,6 +3,7 @@ $navbar-fg: #ddd;
 $navbar-bg-hover: #222;
 $navbar-fg-hover: #fff;
 $navbar-border: #aaa;
+$navbar-font-size: 16px;
 
 .navbar {
 	background-color: $navbar-bg;
@@ -11,23 +12,22 @@ $navbar-border: #aaa;
 	ul {
 		margin: auto auto;
 		background-color: $navbar-bg;
+		font-size: 0;
 		display: block;
 		margin: 0;
 		padding: 0;
 		
 		li {
 			list-style-type: none;
-			display: table-cell;
+			display: inline-block;
 			height: 50px;
+			font-size: $navbar-font-size;
 			line-height: 50px;
 			background-color: $navbar-bg;
+			border-right: 1px solid $navbar-border;
 			
 			&:hover {
 				background-color: $navbar-bg-hover;
-			}
-			
-			+ li {
-				border-left: 1px solid $navbar-border;
 			}
 			
 			a, .navitem {
@@ -40,7 +40,6 @@ $navbar-border: #aaa;
 				color: $navbar-fg;
 				
 				&:hover {
-					background-color: $navbar-bg-hover;
 					color: $navbar-fg-hover;
 				}
 			}
