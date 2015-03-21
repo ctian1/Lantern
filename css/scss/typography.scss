@@ -41,5 +41,11 @@ h6 {
 }
 
 p {
-	margin: 0 5px 15px 5px;
+	margin: 0;
+	padding: 0 5px 15px 5px;
+}
+
+pre {
+	white-space: pre-wrap;
+	word-wrap: break-word;
 }
