@@ -1,0 +1,33 @@
+.alert {
+	display: block;
+	margin: 20px 10px;
+	padding: 20px;
+	border-radius: 5px;
+	background-color: #fff;
+	color: #000;
+	
+	&.danger {
+		background-color: #f22;
+		color: #000;
+	}
+	
+	&.warning {
+		background-color: #f82;
+		color: #000;
+	}
+	
+	&.success {
+		background-color: #3d3;
+		color: #000;
+	}
+	
+	&.information {
+		background-color: #3cf;
+		color: #000;
+	}
+	
+	&.critical {
+		background-color: #000;
+		color: #fff;
+	}
+}
