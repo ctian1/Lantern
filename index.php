@@ -6,7 +6,9 @@
 	<?php require(__DIR__ . '/php/content/head.php'); ?>
 	<body>
 		<?php require(__DIR__ . '/php/content/navbar.php'); ?>
-		<h1>Lantern for Minecraft</h1>
-		<p>We are still working on this website.</p>
+		<div class="container">
+			<h1>Lantern for Minecraft</h1>
+			<p>We are still working on this website.</p>
+		</div>
 	</body>
 </html>

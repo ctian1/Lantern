@@ -46,6 +46,10 @@ $navbar-font-size: 16px;
 			&.navlogo {
 				font-weight: bold;
 				
+				a, .navitem {
+					padding: 0 20px 0 0;
+				}
+				
 				img {
 					display: inline-block;
 					height: 20px;

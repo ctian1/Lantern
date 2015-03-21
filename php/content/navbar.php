@@ -2,7 +2,7 @@
 	if (!defined('ROOT_PATH'))
 		exit();
 ?>
-<nav class="navbar">
+<nav class="navbar container">
 	<ul>
 		<div class="left">
 			<li class="navlogo">
