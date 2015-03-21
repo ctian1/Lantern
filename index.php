@@ -14,5 +14,6 @@
 			<h1>Lantern for Minecraft</h1>
 			<p>We are still working on this website.</p>
 		</div>
+		<?php require(__DIR__ . '/php/content/footer.php'); ?>
 	</body>
 </html>
