@@ -12,6 +12,7 @@ $navbar-font-size: 16px;
 	ul {
 		background-color: $navbar-bg;
 		font-size: 0;
+		min-height: 50px;
 		display: block;
 		margin: 0;
 		padding: 0;
@@ -23,7 +24,6 @@ $navbar-font-size: 16px;
 			font-size: $navbar-font-size;
 			line-height: 50px;
 			background-color: $navbar-bg;
-			border-right: 1px solid $navbar-border;
 			
 			&:hover {
 				background-color: $navbar-bg-hover;
@@ -52,6 +52,20 @@ $navbar-font-size: 16px;
 					padding: 0 5px;
 					vertical-align: middle;
 				}
+			}
+		}
+		
+		.left {
+			float: left;
+		}
+		
+		.right {
+			text-align: right;
+		}
+		
+		.left, .right {
+			li + li {
+				border-left: 1px solid $navbar-border;
 			}
 		}
 	}

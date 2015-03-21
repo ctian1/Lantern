@@ -4,14 +4,17 @@
 ?>
 <nav class="navbar">
 	<ul>
-		<li class="navlogo">
-			<a href="<?php echo ROOT_PATH ?>/">
-				<img src="<?php echo ROOT_PATH ?>/img/logo.png" alt="Logo">
-				Lantern
-			</a>
-		</li>
-		<li><a href="#">One</a></li>
-		<li><a href="#">Two</a></li>
-		<li><a href="#">Three</a></li>
+		<div class="left">
+			<li class="navlogo">
+				<a href="<?php echo ROOT_PATH ?>/">
+					<img src="<?php echo ROOT_PATH ?>/img/logo.png" alt="Logo">
+					Lantern
+				</a>
+			</li>
+			<li><a href="<?php echo ROOT_PATH ?>/">Help</a></li>
+		</div>
+		<div class="right">>
+			<li><a href="#">Contact</a></li>
+		</div>
 	</ul>
 </nav>
